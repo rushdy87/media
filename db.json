@@ -1,5 +1,26 @@
 {
-  "users": [],
+  "users": [
+    {
+      "id": 1,
+      "name": "Leo Messi"
+    },
+    {
+      "name": "Sheldon Torphy",
+      "id": 2
+    },
+    {
+      "name": "Mr. Tammy Batz",
+      "id": 3
+    },
+    {
+      "name": "Sue Rice",
+      "id": 4
+    },
+    {
+      "name": "Allison Stracke",
+      "id": 5
+    }
+  ],
   "albums": [],
   "photos": []
 }
