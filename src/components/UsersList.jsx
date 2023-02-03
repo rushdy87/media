@@ -1,12 +1,13 @@
 import { useEffect } from 'react';
 import { useSelector } from 'react-redux';
-import { TiUserAdd, TiDelete, TiArrowSortedDown } from 'react-icons/ti';
+import { TiUserAdd } from 'react-icons/ti';
 
 import { fetchUsers, addUser } from '../store';
 import { useThunk } from '../hooks/useThunk';
 
 import Skeleton from './Skeleton';
 import Button from './Button';
+import UsersListItem from './UsersListItem';
 
 const UsersList = () => {
   const [doFetchUsers, isLoadingUsers, loadingUsersError] =
@@ -32,15 +33,7 @@ const UsersList = () => {
     content = <h1>Error fetching data...</h1>;
   } else {
     content = data.map((user) => {
-      return (
-        <div key={user.id} className="mb2 border rounded">
-          <div className="flex p-2 justify-between items-center cursor-pointer">
-            <TiDelete />
-            {user.name}
-            <TiArrowSortedDown />
-          </div>
-        </div>
-      );
+      return <UsersListItem user={user} key={user.id} />;
     });
   }
 
