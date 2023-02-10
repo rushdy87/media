@@ -23,7 +23,38 @@
       "userId": 2,
       "title": "Handmade Cotton Gloves",
       "id": 4
+    },
+    {
+      "userId": 1,
+      "title": "Generic Metal Bacon",
+      "id": 5
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 4,
+      "url": "https://loremflickr.com/150/150/abstract?lock=25135",
+      "id": 3
+    },
+    {
+      "albumId": 4,
+      "url": "https://loremflickr.com/150/150/abstract?lock=8111",
+      "id": 4
+    },
+    {
+      "albumId": 4,
+      "url": "https://loremflickr.com/150/150/abstract?lock=59901",
+      "id": 5
+    },
+    {
+      "albumId": 4,
+      "url": "https://loremflickr.com/150/150/abstract?lock=52561",
+      "id": 6
+    },
+    {
+      "albumId": 4,
+      "url": "https://loremflickr.com/150/150/abstract?lock=68044",
+      "id": 7
+    }
+  ]
 }
